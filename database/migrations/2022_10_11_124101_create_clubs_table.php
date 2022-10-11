@@ -22,9 +22,9 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        Club::create(["establishment" => '2010-01-20', "location" => 'Tököl', "max_number" => 50]);
-        Club::create(["establishment" => '2020-02-12', "location" => 'Szigethalom', "max_number" => 150]);
-        Club::create(["establishment" => '2012-01-21', "location" => 'Budapest', "max_number" => 250]);
+        Club::create(["establishment" => '2020-02-20', "location" => 'Budapest', "max_number" => 50]);
+        Club::create(["establishment" => '2000-01-01', "location" => 'Szeged', "max_number" => 150]);
+        Club::create(["establishment" => '1990-06-13', "location" => 'Hatvan', "max_number" => 250]);
     }
 
     /**

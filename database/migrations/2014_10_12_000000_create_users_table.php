@@ -22,9 +22,9 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        User::create(["name" => "Kristóf", "email" => "kr@g.hu"]);
-        User::create(["name" => "Ági", "email" => "á@g.hu"]);
-        User::create(["name" => "Viktor", "email" => "V@g.hu"]);
+        User::create(["name" => "Kriszti", "email" => "diak1@email.hu"]);
+        User::create(["name" => "Alig Elek", "email" => "diak2@email.hu"]);
+        User::create(["name" => "Tank Aranka", "email" => "diak3@email.hu"]);
     }
 
     /**
